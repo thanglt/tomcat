@@ -1,0 +1,14 @@
+*.log
+*.out
+
+/instance/admin/logs
+/instance/customer/logs
+/instance/napoli/logs
+/instance/retailer/logs
+/instance/server-api/logs
+
+/instance/server-api/temp
+/instance/admin/temp
+/instance/customer/temp
+/instance/napoli/temp
+/instance/retailer/temp
