@@ -1,0 +1,8 @@
+kill -9 $(lsof -t -i:83)
+kill -9 $(lsof -t -i:183)
+kill -9 $(lsof -t -i:1983)
+kill -9 $(lsof -t -i:84)
+kill -9 $(lsof -t -i:85)
+kill -9 $(lsof -t -i:86)
+kill -9 $(lsof -t -i:87)
+kill -9 $(lsof -t -i:88)
