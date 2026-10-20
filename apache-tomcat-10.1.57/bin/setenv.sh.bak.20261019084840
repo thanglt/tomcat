@@ -1,0 +1,11 @@
+ 
+# Overrides configuration (DB password, etc)
+export CLASSPATH="/Users/thanglt/etc/"
+export JAVA_OPTS="$JAVA_OPTS -Xmx2048m -Dfile.encoding=UTF-8 -Dspring.cache.engine=redis"
+
+export JPDA_ADDRESS=0.0.0.0:8000
+export JPDA_TRANSPORT=dt_socket
+export JPDA_HOST=localhost
+export JAVA_OPTS="$JAVA_OPTS -Dsun.rmi.dgc.server.gcInterval=3600000"
+export JAVA_OPTS="-Xdebug -Xnoagent -Xrunjdwp:transport=$JPDA_TRANSPORT,address=$JPDA_ADDRESS,server=y,suspend=n $JAVA_OPTS"
+

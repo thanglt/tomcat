@@ -1,0 +1,113 @@
+Listening for transport dt_socket at address: 9083
+19-Oct-2026 15:48:01.891 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.57
+19-Oct-2026 15:48:01.895 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 3 2026 13:06:05 UTC
+19-Oct-2026 15:48:01.895 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.57.0
+19-Oct-2026 15:48:01.895 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+19-Oct-2026 15:48:01.895 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            26.0
+19-Oct-2026 15:48:01.895 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          aarch64
+19-Oct-2026 15:48:01.895 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk-17.jdk/Contents/Home
+19-Oct-2026 15:48:01.896 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.11+7-LTS-207
+19-Oct-2026 15:48:01.896 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+19-Oct-2026 15:48:01.896 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/thanglt/tomcat/instance/server-api
+19-Oct-2026 15:48:01.896 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/thanglt/tomcat/apache-tomcat-10.1.57
+19-Oct-2026 15:48:01.905 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/thanglt/tomcat/instance/server-api/conf/logging.properties
+19-Oct-2026 15:48:01.905 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-Oct-2026 15:48:01.905 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xdebug
+19-Oct-2026 15:48:01.905 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xnoagent
+19-Oct-2026 15:48:01.905 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xrunjdwp:transport=dt_socket,address=0.0.0.0:9083,server=y,suspend=n
+19-Oct-2026 15:48:01.905 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx2048m
+19-Oct-2026 15:48:01.906 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+19-Oct-2026 15:48:01.906 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dspring.cache.engine=redis
+19-Oct-2026 15:48:01.906 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.rmi.dgc.server.gcInterval=3600000
+19-Oct-2026 15:48:01.906 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+19-Oct-2026 15:48:01.906 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+19-Oct-2026 15:48:01.906 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+19-Oct-2026 15:48:01.907 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+19-Oct-2026 15:48:01.907 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+19-Oct-2026 15:48:01.907 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+19-Oct-2026 15:48:01.907 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+19-Oct-2026 15:48:01.907 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+19-Oct-2026 15:48:01.907 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+19-Oct-2026 15:48:01.907 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+19-Oct-2026 15:48:01.907 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dport.http=83
+19-Oct-2026 15:48:01.907 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dport.shutdown=10083
+19-Oct-2026 15:48:01.907 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/thanglt/tomcat/instance/server-api
+19-Oct-2026 15:48:01.907 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/thanglt/tomcat/apache-tomcat-10.1.57
+19-Oct-2026 15:48:01.908 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/thanglt/tomcat/instance/server-api/temp
+19-Oct-2026 15:48:01.917 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/thanglt/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+19-Oct-2026 15:48:02.117 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-83"]
+19-Oct-2026 15:48:02.139 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [378] milliseconds
+19-Oct-2026 15:48:02.164 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+19-Oct-2026 15:48:02.164 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.57]
+19-Oct-2026 15:48:02.168 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/Users/thanglt/tomcat/instance/server-api/conf/Catalina/localhost/server.xml]
+19-Oct-2026 15:48:07.244 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Oct-2026 15:48:41.777 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/Users/thanglt/tomcat/instance/server-api/conf/Catalina/localhost/server.xml] has finished in [39,606] ms
+19-Oct-2026 15:48:41.777 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/Users/thanglt/tomcat/instance/server-api/conf/Catalina/localhost/cdn.xml]
+19-Oct-2026 15:48:41.949 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Oct-2026 15:48:41.951 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/Users/thanglt/tomcat/instance/server-api/conf/Catalina/localhost/cdn.xml] has finished in [173] ms
+19-Oct-2026 15:48:41.952 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-83"]
+19-Oct-2026 15:48:41.956 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [39818] milliseconds
+19-Oct-2026 17:08:40.890 INFO [Thread-2] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-83"]
+19-Oct-2026 17:08:40.894 INFO [Thread-2] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+19-Oct-2026 17:08:41.917 WARNING [Thread-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [server] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+19-Oct-2026 17:08:41.918 WARNING [Thread-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.11/java.lang.Object.wait(Native Method)
+ java.base@17.0.11/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:84)
+ java.base@17.0.11/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+ java.base@17.0.11/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.11/java.lang.Thread.run(Thread.java:842)
+19-Oct-2026 17:08:41.920 SEVERE [Thread-2] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [server] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@3c01a670]) and a value of type [io.netty.util.internal.InternalThreadLocalMap] (value [io.netty.util.internal.InternalThreadLocalMap@adc4a57]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+19-Oct-2026 17:08:41.932 INFO [Thread-2] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-83"]
+19-Oct-2026 17:08:41.940 INFO [Thread-2] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-83"]
+Listening for transport dt_socket at address: 9083
+19-Oct-2026 17:16:32.596 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.57
+19-Oct-2026 17:16:32.599 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 3 2026 13:06:05 UTC
+19-Oct-2026 17:16:32.599 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.57.0
+19-Oct-2026 17:16:32.599 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+19-Oct-2026 17:16:32.599 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            26.0
+19-Oct-2026 17:16:32.599 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          aarch64
+19-Oct-2026 17:16:32.599 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk-17.jdk/Contents/Home
+19-Oct-2026 17:16:32.600 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.11+7-LTS-207
+19-Oct-2026 17:16:32.600 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+19-Oct-2026 17:16:32.600 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/thanglt/tomcat/instance/server-api
+19-Oct-2026 17:16:32.600 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/thanglt/tomcat/apache-tomcat-10.1.57
+19-Oct-2026 17:16:32.605 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/thanglt/tomcat/instance/server-api/conf/logging.properties
+19-Oct-2026 17:16:32.605 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-Oct-2026 17:16:32.606 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xdebug
+19-Oct-2026 17:16:32.606 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xnoagent
+19-Oct-2026 17:16:32.606 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xrunjdwp:transport=dt_socket,address=0.0.0.0:9083,server=y,suspend=n
+19-Oct-2026 17:16:32.606 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx2048m
+19-Oct-2026 17:16:32.606 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+19-Oct-2026 17:16:32.606 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dspring.cache.engine=redis
+19-Oct-2026 17:16:32.606 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.rmi.dgc.server.gcInterval=3600000
+19-Oct-2026 17:16:32.606 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+19-Oct-2026 17:16:32.606 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+19-Oct-2026 17:16:32.606 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+19-Oct-2026 17:16:32.606 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+19-Oct-2026 17:16:32.606 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+19-Oct-2026 17:16:32.606 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+19-Oct-2026 17:16:32.606 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+19-Oct-2026 17:16:32.606 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+19-Oct-2026 17:16:32.606 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+19-Oct-2026 17:16:32.606 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+19-Oct-2026 17:16:32.606 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dport.http=83
+19-Oct-2026 17:16:32.606 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dport.shutdown=10083
+19-Oct-2026 17:16:32.606 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/thanglt/tomcat/instance/server-api
+19-Oct-2026 17:16:32.606 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/thanglt/tomcat/apache-tomcat-10.1.57
+19-Oct-2026 17:16:32.606 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/thanglt/tomcat/instance/server-api/temp
+19-Oct-2026 17:16:32.613 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/thanglt/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+19-Oct-2026 17:16:32.760 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-83"]
+19-Oct-2026 17:16:32.786 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [287] milliseconds
+19-Oct-2026 17:16:32.817 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+19-Oct-2026 17:16:32.817 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.57]
+19-Oct-2026 17:16:32.824 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/Users/thanglt/tomcat/instance/server-api/conf/Catalina/localhost/server.xml]
+19-Oct-2026 17:16:39.910 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Oct-2026 17:17:11.574 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/Users/thanglt/tomcat/instance/server-api/conf/Catalina/localhost/server.xml] has finished in [38,748] ms
+19-Oct-2026 17:17:11.575 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/Users/thanglt/tomcat/instance/server-api/conf/Catalina/localhost/cdn.xml]
+19-Oct-2026 17:17:11.855 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Oct-2026 17:17:11.857 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/Users/thanglt/tomcat/instance/server-api/conf/Catalina/localhost/cdn.xml] has finished in [282] ms
+19-Oct-2026 17:17:11.861 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-83"]
+19-Oct-2026 17:17:11.867 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [39080] milliseconds
+19-Oct-2026 17:30:43.256 INFO [Thread-2] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-83"]
+19-Oct-2026 17:30:43.263 INFO [Thread-2] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]

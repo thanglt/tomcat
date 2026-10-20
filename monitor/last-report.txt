@@ -1,0 +1,7 @@
+Tomcat monitor (full) — MBPACT01 — 2026-10-19T16:19:41+0700 — OK
+NAME             STATUS STATE    PID     HTTP  CPU%   RSS_MB  LOG_MB  ERR   5XX   STARTUP_MS
+admin            OK    RUNNING  26124   302   0.0    409     0       0     0     -
+customer         OK    RUNNING  26843   302   23.8   398     0       0     0     -
+napoli           OK    RUNNING  27202   302   0.1    458     0       0     0     -
+retailer         OK    RUNNING  28245   302   0.0    593     0       0     0     -
+server-api       OK    RUNNING  30032   404   99.5   418     0       0     0     -
