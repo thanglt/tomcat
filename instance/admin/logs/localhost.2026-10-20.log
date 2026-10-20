@@ -1,0 +1,2 @@
+20-Oct-2026 10:11:32.980 INFO [main] org.apache.catalina.core.ApplicationContext.log 3 Spring WebApplicationInitializers detected on classpath
+20-Oct-2026 10:11:33.019 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
