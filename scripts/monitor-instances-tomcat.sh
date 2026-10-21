@@ -42,9 +42,12 @@ ALERTS_KEEP=5000           # số dòng giữ lại trong alerts*.jsonl
 # name|http_port|health_path|on/off
 INSTANCES_CONF=(
   "admin|84|/|on"
+  "batch|89|/|on"
   "customer|85|/|on"
+  "liquibase|91|/|on"
   "napoli|87|/|on"
   "retailer|86|/|on"
+  "sender|88|/|on"
   "server-api|83|/|on"
 )
 # END INSTANCES

@@ -1,12 +1,18 @@
   # BEGIN TOMCAT INSTANCES (tự sinh bởi tc-tunnel.sh — không sửa tay)
   - hostname: admin.amanotesunny.com          # instance admin
     service: http://localhost:84
+  - hostname: batch.amanotesunny.com          # instance batch
+    service: http://localhost:89
   - hostname: customer.amanotesunny.com          # instance customer
     service: http://localhost:85
+  - hostname: liquibase.amanotesunny.com          # instance liquibase
+    service: http://localhost:91
   - hostname: napoli.amanotesunny.com          # instance napoli
     service: http://localhost:87
   - hostname: retailer.amanotesunny.com          # instance retailer
     service: http://localhost:86
+  - hostname: sender.amanotesunny.com          # instance sender
+    service: http://localhost:88
   - hostname: server-api.amanotesunny.com          # instance server-api
     service: http://localhost:83
   # END TOMCAT INSTANCES
