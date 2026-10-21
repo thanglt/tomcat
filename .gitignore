@@ -12,3 +12,9 @@
 /instance/customer/temp
 /instance/napoli/temp
 /instance/retailer/temp
+/instance/liquibase/logs
+/instance/sender/logs
+/instance/batch/logs
+/monitor/state
+/instance/liquibase/temp
+/instance/sender/temp

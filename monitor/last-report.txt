@@ -1,7 +1,12 @@
-Tomcat monitor (full) — MBPACT01 — 2026-10-19T16:19:41+0700 — OK
+Tomcat monitor (full) — MBPACT01 — 2026-10-21T10:10:48+0700 — CRIT
 NAME             STATUS STATE    PID     HTTP  CPU%   RSS_MB  LOG_MB  ERR   5XX   STARTUP_MS
-admin            OK    RUNNING  26124   302   0.0    409     0       0     0     -
-customer         OK    RUNNING  26843   302   23.8   398     0       0     0     -
-napoli           OK    RUNNING  27202   302   0.1    458     0       0     0     -
-retailer         OK    RUNNING  28245   302   0.0    593     0       0     0     -
-server-api       OK    RUNNING  30032   404   99.5   418     0       0     0     -
+admin            OK    RUNNING  28101   302   83.3   515     0       0     0     -
+batch            OK    RUNNING  28470   404   85.4   499     0       0     0     -
+customer         OK    RUNNING  29031   302   81.2   367     0       0     0     -
+liquibase        OK    RUNNING  27876   404   0.1    173     0       0     0     -
+napoli           OK    RUNNING  29562   302   82.3   388     0       0     0     -
+retailer         OK    RUNNING  30033   302   79.4   416     0       0     0     -
+sender           CRIT  RUNNING  31094   000   0.1    134     0       0     0     -
+server-api       OK    RUNNING  31757   404   81.4   373     0       0     0     -
+
+[CRIT] sender: HTTP không phản hồi tại :88/
